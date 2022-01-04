@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Group 4 Capstone</title>
+    <link rel="stylesheet" href="view/styles.css" />
+</head>
+
+<body>
+<div class='headers'>
+    <h2>Help Desk Portal - New Account</h2>
+
+    <form>
+        <!--First name input-->
+        <label for="UserFirstName">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <!--Last name input-->
+        <label for="UserLastName">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <!--User ID input-->
+        <label for="UserID">User ID :</label><br>
+        <input type="text" id="Uid" name="Uid"><br>
+
+        <!--Email input-->
+        <label for="UserEmail">Email:</label><br>
+        <input type="text" id="Uemail" name="Uemail"><br>
+
+        <!--Password input-->
+        <label for="UserPassword">Create Password:</label><br>
+        <input type="text" id="Upass" name="Upass"><br>
+
+
+
+      </form>
+      <button type="button">Back To Home</button>
+      <button type="button">Create Account</button>
+</div>
+</body>
+</html>
